@@ -39,6 +39,11 @@ li, #divBuscar{
     color: #533B4D;
 }
 
+#divBuscar{
+    width: 170px;
+    text-align: center;
+}
+
 input {
     text-indent: 3px;
 }
@@ -49,15 +54,20 @@ button {
     color: #FAE3C6;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #7c5874;
+}
+
 hr {
     width: 100%;
-    border:  2px solid #533B4D;
+    border:  1px solid #533B4D;
+    background-color: #533B4D;
 }
 
 ul {
     list-style: none;
-}
-
-button:hover{
-    cursor: pointer;
 }

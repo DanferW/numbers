@@ -30,6 +30,7 @@ function agregarNum(){
     // resetear input y hacer focus
     inpNumero1.value = "";
     inpNumero1.focus();
+    
 }
 
 function mostrarLista(){
